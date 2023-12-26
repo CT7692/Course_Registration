@@ -40,7 +40,7 @@ public class Validator
         System.out.print(prompt);
         String s = keyboard.nextLine();
         
-        while(s.equals(""))
+        while("".equals(s))
         {
             System.out.println("ERROR! Entry required.");
             System.out.print(prompt);
